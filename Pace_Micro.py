@@ -9,9 +9,14 @@ def calculate_pace():
     distance = float(data.get("distance", 0))
     duration = float(data.get("duration", 0))
     pace = duration / distance if distance else 0
-    print(
-        f"\nService Called: \n Distance: {distance} \n Duration: {duration} \n Calculated Pace: {pace} \n"
+    
+    print(f" \n 
+        Service Called: \n 
+        Distance: {distance} \n 
+        Duration: {duration} \n 
+        Calculated Pace: {pace} \n"
     )
+    
     return jsonify({"pace": pace}), 200
 
 
