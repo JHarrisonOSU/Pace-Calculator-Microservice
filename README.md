@@ -36,4 +36,4 @@ pace = round(pace_data.get("pace"), 2)  # Extracts the pace value from the repon
 ```
 
 ### UML Diagram
-![plot](UML\UML.png)
+![plot](.\UML\UML.png)
