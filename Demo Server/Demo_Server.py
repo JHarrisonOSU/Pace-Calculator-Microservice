@@ -1,4 +1,6 @@
-# User Input Server (file: user_input_server.py)
+'''
+This is a simple demo server that calls the pace microservice after a user submits data to a form.
+'''
 
 from flask import Flask, request, render_template_string
 import requests
